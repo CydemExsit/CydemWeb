@@ -1,0 +1,26 @@
+body{
+    background-position:right bottom;
+    background-repeat:no-repeat;
+    font-family: "Yu Gothic";
+    font-size:30px;
+    color:white;
+}
+ul{
+    display:block;
+    list-style: none;
+    list-style-type:none;
+    line-height: 90px;
+    margin-left: 50px;
+    margin-right: 0;
+}
+ul li::before {
+    content: "\2022";
+    color: white;
+    font-weight: bold;
+    display: inline-block; 
+    width: 1em;
+    margin-left: -1em;
+}
+hr {
+    border: 5px solid #15ABBE;
+}

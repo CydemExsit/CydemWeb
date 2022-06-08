@@ -1,0 +1,79 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="CSS JS/index.css" rel="stylesheet">
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script src="CSS JS/index.js"></script>
+    </head>  
+    <body>
+        <div id="myvideo">
+            <video id="playvideo" muted="" autoplay="autoplay" preload="auto"><source src="video/little.mp4" type="video/mp4"></video>  
+        </div>
+        
+        <header class="main-header">
+            <div class="container">
+                <nav class="main-nav">
+                    <div class="icon">
+                            <a href="https://www.facebook.com/Cydem-Exsit-101306228565954/"><img src="image/fb_icon_white.png"
+                                onmouseover="this.src='image/fb_icon_color.png';" 
+                                onmouseout="this.src='image/fb_icon_white.png';" alt="FB"></a>
+                            <a href="https://www.youtube.com/channel/UCZ2_6F0tbSLJvAhAd3UvrdQ"><img id="yt" src="image/yt_icon_white.png" 
+                                onmouseover="this.src='image/yt_icon_color.png';" 
+                                onmouseout="this.src='image/yt_icon_white.png';" alt="YT"></a> 
+                    </div>
+                </nav>
+                    <div><img class="logo" src="image/cy_icon_white.png" alt="logo"></div>
+                <nav class="main-nav">
+                    <div class="icon">
+                            <a href="dc.html"><img src="image/dc_icon_white.png" 
+                                onmouseover="this.src='image/dc_icon_color.png';" 
+                                onmouseout="this.src='image/dc_icon_white.png';" alt="DC"></a>
+                            <a href="http://www.twitch.tv/cydemexsit?sr=a"><img src="image/twitch_icon_white.png" 
+                                onmouseover="this.src='image/twitch_icon_color.png';" 
+                                onmouseout="this.src='image/twitch_icon_white.png';" alt="Twitch"></a>
+                    </div>
+                </nav>
+            </div>
+        </header>
+        <hr style="background-color: #15ABBE"/>
+        <div class="game-list">
+            <table> 
+                <tr>
+                  <th><a href="youtube.html"><div data-aos="zoom-in"><img src="image/yt_index.jpg"></div></a></th>
+                  <th rowspan="500">&emsp;&emsp;</th>
+                  <th rowspan='500'>
+                    <H2 style="text-shadow: 0.1em 0.1em #333">CydemExsit</H2>
+                    <br> 2015登入
+                    <br>Cydem 為Cytus+Deemo兩款遊戲的名稱結合
+                    <br>Exsit 為exist(存在)的反義
+                    <br>2015/01以記錄生活為由開始在Youtube上傳影片
+                    <br>2020/04以記錄生活為由開始在Twitch實況遊戲<br>
+                    <img id="history" src="image/cy_his.png"></th>
+                </tr>
+                <tr>
+                  <th><a href="twitch.html"><div data-aos="zoom-in"><img src="image/twitch_index.jpg"></div></a></th>
+                </tr>
+                <tr>
+                  <th><a href="lol.html"><div data-aos="zoom-in"><img src="image/lol_index.jpg"></div></a></th>
+                </tr>
+                <tr>
+                  <th><a href="apex.html"><div data-aos="zoom-in"><img src="image/apex_index.jpg"></div></a></th>
+                </tr>
+                <tr>
+                   <th><a href="cytus.html"><div data-aos="zoom-in"><img src="image/cytus_index.jpg"></div></a></th>                  
+                </tr>
+            </table>
+        </div>
+        <script>
+            AOS.init({
+                duration: 3000,
+            });
+        </script>
+        
+    </body>
+</html>
